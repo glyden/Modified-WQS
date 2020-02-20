@@ -5,10 +5,10 @@
 # (WQS, linear regression) for the case of 10 correlated predictors.
 
 source("~/Desktop/functions.R")
-source("~/Desktop/David/SWSR/optim-glmnet-covs-3.R") # brings in dplyr, glmnet, parallel
+source("~/Desktop/SWSR/swsr-functions.R") # brings in dplyr, glmnet, parallel
 
 library(mvtnorm,lib.loc="~/RPackages")
-library(gWQS,lib.loc="~/RPackages")
+library(gWQS,lib.loc="~/RPackages") # Note: Used Version 1.1.0
 
 # read in arguments
 ## includes job, from 1 to 1000; each job was sent to a separate node for parallel processing
