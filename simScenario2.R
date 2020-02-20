@@ -8,7 +8,7 @@ source("~/Desktop/functions.R")
 source("~/Desktop/SWSR/swsr-functions.R") # brings in dplyr, glmnet, parallel
 
 library(mvtnorm,lib.loc="~/RPackages")
-library(gWQS,lib.loc="~/RPackages")
+library(gWQS,lib.loc="~/RPackages") # Note: Used Version 1.1.0
 
 # read in arguments
 ## includes job, from 1 to 1000; each job was sent to a separate node for parallel processing
