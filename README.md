@@ -5,6 +5,6 @@ The contents are as follows:
 
 functions.R includes functions that are helpful in generating correlated data.
 
-method-functions.R has all the functions to fit our method, i.e., fit the penalized constrained regressions to estimate the weights and run a permutation test for the overall mixture effect.
+method-functions.R includes functions to fit our method, i.e., estimate mixture component weights using penalized constrained regressions and run a permutation test for the overall mixture effect.
 
-example.R shows how to use the functions to estimate weights and overall mixture effects in a simulated dataset.
+example.R applies method-functions.R to estimate weights and overall mixture effects in a simulated dataset.
