@@ -9,4 +9,4 @@ method-functions.R includes functions to fit our method, i.e., estimate mixture 
 
 example.R applies method-functions.R to estimate weights and overall mixture effects in a simulated dataset.
 
-Simulations/ contains R scripts to run all simulation studies.
+Simulations/ contains R scripts to run our simulation studies (the Type I error simulation and Scenarios 1 through 3 in the paper).
