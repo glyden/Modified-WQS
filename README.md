@@ -1,5 +1,5 @@
 # Penalized weighted sum regression for chemical mixtures
-This repository contains the code to fit a modified form of Weighted Quantile Sum regression that does not require data to be split into training and test sets for weight estimation and inference. This method was introduced in "A permutation-based approach to inference for weighted sum regression with correlated chemical mixtures" by Lyden, et al. Code to replicate the simulation studies in this paper can be found in the Simulations/ folder.
+This repository contains the code to fit a modified form of Weighted Quantile Sum regression that does not require data to be split into training and test sets for weight estimation and inference. This method was introduced in "A permutation-based approach to inference for weighted sum regression with correlated chemical mixtures" by Lyden, et al. Code to run the simulation studies in Lyden, et al. is in the Simulations folder.
 
 The other contents of this repository are as follows:
 
